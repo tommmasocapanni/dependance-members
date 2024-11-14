@@ -126,7 +126,7 @@
       text-transform: uppercase;
       justify-content: space-between;
       right: 37px;
-      top: 20%;
+      top: 35%;
       height: auto;
       flex-grow: 1;
       padding: 0 20px;
@@ -258,6 +258,12 @@
     }
     
     @media (max-width: 640px) {
+      
+      .studio-name, .member-count, .project-details, .project-title{
+        visibility: hidden;
+      }
+
+
       .profile-container {
         height: 100vh;
         flex-grow: 0;
@@ -279,7 +285,7 @@
       }
     
       .team-members {
-        left: 20px;
+        left: 0px;
         height: 240px;
         min-height: 240px;
         max-height: 240px;
@@ -290,6 +296,8 @@
         height: auto;
         flex-grow: 0;
         width: 328px;
+        padding-right: 0px;
+        padding: 0;
       }
     }
     
