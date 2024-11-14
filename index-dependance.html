@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dépendance Members</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- Load Three.js and OrbitControls -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+
+</head>
+<body>
+    <main class="profile-container">
+        <header class="header">
+            <h1 id="dynamic-title">Dépendance Studio</h1>
+            <span class="designer-role">tm</span>
+        </header>
+
+        <div class="canvas-wrapper">
+            <canvas id="three-canvas"></canvas>
+        </div>
+
+        <section class="team-members">
+            <div class="member-list hover-effects">
+                <p onclick="changeObject('customModel1'); changeTitle('Benedetta Bigliardo'); selectName(this);">BENEDETTA BIGLIARDO</p>
+                <p onclick="changeObject('customModel2'); changeTitle('Tommaso Capanni'); selectName(this);">TOMMASO CAPANNI</p>
+            </div>
+            <div class="service-list hover-effects">
+                <p onclick="changeObject('cone'); changeTitle('Mattia Magionami'); selectName(this);">MATTIA MAGIONAMI</p>
+                <p onclick="changeObject('torus'); changeTitle('Davide Marilungo'); selectName(this);">DAVIDE MARILUNGO</p>
+                <p onclick="changeObject('cylinder'); changeTitle('Marco Maurizi'); selectName(this);">MARCO MAURIZI</p>
+                <p onclick="changeObject('cube'); changeTitle('Simone Pace'); selectName(this);">SIMONE PACE</p>
+            </div>
+            <p class="member-count">/0024</p>
+            <p class="studio-name">DÉPENDANCE STUDIO</p>
+        </section>
+
+        <section class="project-info">
+            <div class="project-header">
+                <p class="project-title">LAST PROJECTS</p>
+                <div class="project-details">
+                    <p>ROLE</p>
+                    <p>SINCE</p>
+                </div>
+            </div>
+            <div class="project-list">
+                <div class="project-names">
+                    <p>FORMAZIONE ORGANICA</p>
+                    <p>COMPUTER GENERATED MEMORIES</p>
+                </div>
+                <div class="project-meta">
+                    <p>MEDIA DESIGNER</p>
+                    <p>2023</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
