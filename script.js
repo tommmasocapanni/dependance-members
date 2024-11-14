@@ -92,6 +92,7 @@ function init() {
     controls.dampingFactor = 0.05;
     controls.minPolarAngle = Math.PI / 4;
     controls.maxPolarAngle = Math.PI / 2;
+    controls.enableZoom = false;
 
     const cameraLight = new THREE.PointLight(0xffffff, 1.0);
     camera.add(cameraLight);
