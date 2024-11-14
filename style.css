@@ -299,6 +299,9 @@
         padding-right: 0px;
         padding: 0;
       }
+      .project-header{
+        height: 0;
+      }
     }
     
     .visually-hidden {
