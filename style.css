@@ -11,12 +11,14 @@
         width: 100vw;
         height: 100vh;
         overflow: hidden;
+
+      background-color: #e2e3e6;
     }
     h1{
       font-family: 'PPMondwest';
       font-size: 4em;
       font-weight: 400;
-      margin: 0 auto;
+      margin: 0;
       /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     }
 
@@ -54,13 +56,13 @@
 
   /* Styles for the selected item */
   .selected {
-      background-color: #ffffff; /* White background */
-      color: #000000; /* Black text color */
+      background-color: #000000; /* White background */
+      color: #ffffff; /* Black text color */
   }
 
 
     .profile-container {
-      background-color: #000;
+      /* background-color: #e2e3e6; */
       color: #fff;
       display: flex;
       flex-direction: column;
@@ -77,9 +79,10 @@
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      color: rgba(255, 255, 255, 0.96);
+      color: rgba(0, 0, 0, 0.96);
       justify-content: flex-start;
       flex-wrap: wrap;
+      width: 100%;
     }
     
     .designer-name {
@@ -131,6 +134,7 @@
       flex-grow: 1;
       padding: 0 20px;
       font: 14px Roboto Mono, sans-serif;
+      color: rgba(0, 0, 0, 0.96);
     }
     
     .member-list {
@@ -175,6 +179,7 @@
       height: 123px;
       padding: 0 0 0 20px;
       font: 14px Roboto Mono, sans-serif;
+      color: rgba(0, 0, 0, 0.96);
     }
     
     .project-header {
@@ -289,7 +294,7 @@
         height: 240px;
         min-height: 240px;
         max-height: 240px;
-        width: 332px;
+        width: 90%;
       }
     
       .project-info {
