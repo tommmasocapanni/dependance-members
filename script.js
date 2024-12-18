@@ -4,40 +4,40 @@ let currentObject;
 // Oggetto per associare ogni membro ai rispettivi progetti
 const memberProjects = {
     'BENEDETTA BIGLIARDO': {
-        projects: ['FORMAZIONE ORGANICA', 'COMPUTER GENERATED MEMORIES'],
+        projects: ['FORMAZIONE:ORGANICA', 'COMPUTER GENERATED MEMORIES'],
         role: 'MEDIA DESIGNER',
         shortRole: 'DES',
-        year: '2023'
+        year: '2022'
     },
     'TOMMASO CAPANNI': {
-        projects: ['SOUNDWAVE EXPERIMENTS', 'VIRTUAL DREAMS', 'LIGHT & SPACE'],
-        role: 'SOUND DESIGNER',
+        projects: ['FORMAZIONE:ORGANICA', 'COMPUTER GENERATED MEMORIES'],
+        role: 'MEDIA DESIGNER',
         shortRole: 'DES',
         year: '2022'
     },
     'MATTIA MAGIONAMI': {
-        projects: ['URBAN PATTERNS', 'NATURE SYMPHONY'],
-        role: 'VISUAL ARTIST',
+        projects: ['FORMAZIONE:ORGANICA', 'C.G.M'],
+        role: 'SOUND ARTIST',
         shortRole: 'SND',
-        year: '2021'
+        year: '2022'
     },
     'DAVIDE MARILUNGO': {
-        projects: ['DIGITAL HERITAGE', 'MOTION CAPTURE STUDY'],
-        role: 'INTERACTIVE DESIGNER',
+        projects: ['FORMAZIONE:ORGANICA', 'C.G.M'],
+        role: 'SOUND DESIGNER',
         shortRole: 'SND',
-        year: '2020'
+        year: '2022'
     },
     'MARCO MAURIZI': {
-        projects: ['ARCHITECTURAL VISIONS', '3D LANDSCAPES'],
-        role: '3D ARTIST',
+        projects: ['COMPUTER GENERATED MEMORIES'],
+        role: 'SOUND DESIGNER',
         shortRole: 'SND',
-        year: '2019'
+        year: '2023'
     },
     'SIMONE PACE': {
-        projects: ['AUDIO VISUAL HARMONY', 'COLORS IN MOTION'],
-        role: 'AUDIO ENGINEER',
+        projects: ['FORMA'],
+        role: 'SOUND ENGINEER',
         shortRole: 'SND',
-        year: '2018'
+        year: '2023'
     }
 };
 
