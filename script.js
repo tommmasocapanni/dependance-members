@@ -30,7 +30,7 @@ const memberProjects = {
     'MARCO MAURIZI': {
         projects: ['COMPUTER GENERATED MEMORIES'],
         role: 'SOUND DESIGNER',
-        shortRole: 'SND',
+        shortRole: 'TEC',
         year: '2023'
     },
     'SIMONE PACE': {
