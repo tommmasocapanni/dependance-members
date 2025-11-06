@@ -7,13 +7,13 @@ const memberProjects = {
         projects: ['FORMAZIONE:ORGANICA', 'COMPUTER GENERATED MEMORIES'],
         role: 'MEDIA DESIGNER',
         shortRole: 'DES',
-        year: '2022'
+        year: '2023'
     },
     'TOMMASO CAPANNI': {
         projects: ['FORMAZIONE:ORGANICA', 'COMPUTER GENERATED MEMORIES'],
         role: 'MEDIA DESIGNER',
         shortRole: 'DES',
-        year: '2022'
+        year: '2023'
     },
     /* 'MATTIA MAGIONAMI': {
         projects: ['FORMAZIONE:ORGANICA', 'C.G.M'],
