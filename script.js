@@ -15,7 +15,7 @@ const memberProjects = {
         shortRole: 'DES',
         year: '2022'
     },
-    'MATTIA MAGIONAMI': {
+    /* 'MATTIA MAGIONAMI': {
         projects: ['FORMAZIONE:ORGANICA', 'C.G.M'],
         role: 'SOUND ARTIST',
         shortRole: 'SND',
@@ -32,7 +32,7 @@ const memberProjects = {
         role: 'SOUND DESIGNER',
         shortRole: 'SND',
         year: '2023'
-    },
+    },*/
     'SIMONE PACE': {
         projects: ['FORMA'],
         role: 'SOUND ENGINEER',
