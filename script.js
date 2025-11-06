@@ -28,8 +28,8 @@ const memberProjects = {
         year: '2022'
     }, */
     'MARCO MAURIZI': {
-        projects: ['COMPUTER GENERATED MEMORIES'],
-        role: 'SOUND DESIGNER',
+        projects: ['CGM', 'Lisergica'],
+        role: 'PROD TECH',
         shortRole: 'TEC',
         year: '2023'
     },
